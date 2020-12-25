@@ -1,0 +1,101 @@
+@media screen and (min-width:1200px){
+  .hero-text-box{
+    width: 114rem;
+  }
+}
+@media screen and (max-width:1200px){
+  .row{
+    margin: 0 2rem;
+  }
+  .hero-text-box{
+    width: 95%;
+  }
+}
+@media screen and (max-width:1024px){
+  .row{
+    margin: 0 2rem;
+  }
+  .main-nav{
+    display: none;
+  }
+  .mobile-menu span{
+    display: block;
+  }
+  html{
+    font-size: 57.5%;
+  }
+  header{
+    height: 70vh;
+  }
+  .hero-text-box{
+    width: 90%;
+  }
+  .client-photo{
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+  .client-review{
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+  .contact-section form{
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+
+@media screen and (max-width:980px){
+  .hero-text-box{
+    width: 95%;
+  }
+  .span_1_of_4{
+    width: 49.2%;
+  }
+  .span_1_of_4:nth-child(3){
+    margin-left: 0;
+  }
+  html{
+    font-size: 60.5%;
+  }
+}
+
+@media screen and (max-width:768px){
+  .hero-text-box{
+    width: 90%;
+  }
+  .little-desc{
+    width: 90%;
+    margin-left: 5%
+  }
+  html{
+    font-size: 56.5%;
+  }
+  header{
+    height: 65vh;
+  }
+}
+@media screen and (max-width:480px){
+  .span_1_of_4{
+    width: 100%;
+  }
+  header{
+    height: 75vh;
+  }
+  html{
+    font-size: 50.5%;
+  }
+  .testimonial-section .col:nth-child(3),
+  .testimonial-section .col:nth-child(4){
+    margin-top: 4rem;
+  }
+}
+@media screen and (max-width:360px){
+  header{
+    height: 85vh;
+  }
+  html{
+    font-size: 48.5%;
+  }
+}
